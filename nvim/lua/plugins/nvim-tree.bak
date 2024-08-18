@@ -1,0 +1,18 @@
+return {
+    {"nvim-tree/nvim-web-devicons"},
+    {
+        "nvim-tree/nvim-tree.lua",
+
+        opts = function()
+            require("nvim-tree").setup({})
+        end,
+
+        keys = {
+            { 
+                '<C-n>',
+                function() vim.cmd('NvimTreeToggle') end,
+                desc = 'Toggle Nvim-Tree'
+            },
+        }
+    }
+}

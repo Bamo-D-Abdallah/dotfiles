@@ -1,0 +1,16 @@
+[font]
+normal.family = "JetBrainsMonoNL Nerd Font"
+size = 12
+offset.y = 5
+offset.x = 1
+glyph_offset.y = 5
+
+
+[window]
+# Padding
+padding.x = 10 
+padding.y = 10
+
+#Opacity
+opacity = 0.85
+blur = true
